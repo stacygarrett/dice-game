@@ -120,60 +120,9 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
 
 document.querySelector('.btn-new').addEventListener('click', init);
 
-// document.getElementsByClassName('btn-original').addEventListener
-
-// function loadJS() {
-//     if (game.src = 'app.js') {
-//         // game.src = 'challenge.js';
-//         game.getAttribute('src', 'challenge.js');
-//     // } else game.src = 'app.js';
-//     } else {
-//         game.getAttribute('src', 'app.js');
-// }
-// }
-
-// originalBtn.addEventListener('click', function() {
-//     window.script.location.pathname = 'app.js'
-// });
-
-// modifiedBtn.addEventListener('click', function() {
-//     window.script.location.pathname = 'challenge.js'
-// });
-
 modifiedBtn.addEventListener('click', function () {
     window.location.href = 'index2.html';
 });
 originalBtn.addEventListener('click', function () {
     window.location.href = 'index.html';
 });
-
-// function include(){
-//     if(script == "on"){
-//        let head = document.getElementsByTagName('head')[0];
-  
-//        script = document.createElement('script');
-//        script.src = 'challenge.js';
-//        script.type = "text/javascript";
-//        script.id = "modified";
-  
-//        head.appendChild(script);
-//        body.removeChild(script);
-
-//     }else{
-//       (src=document.getElementById("default")).parentNode.removeChild(src)
-//     }
-//   }
-//   include();
-
-//   function removejsfile(filename, filetype){
-//     var targetelement=(filetype=="js")? "script" : (filetype=="css")? "link" : "none" //determine element type to create nodelist from
-//     var targetattr=(filetype=="js")? "src" : (filetype=="css")? "href" : "none" //determine corresponding attribute to test for
-//     var allsuspects=document.getElementsByTagName(targetelement)
-//     for (var i=allsuspects.length; i>=0; i--){ //search backwards within nodelist for matching elements to remove
-//     if (allsuspects[i] && allsuspects[i].getAttribute(targetattr)!=null && allsuspects[i].getAttribute(targetattr).indexOf(filename)!=-1)
-//         allsuspects[i].parentNode.removeChild(allsuspects[i]) //remove element by calling parentNode.removeChild()
-//     }
-// }
- 
-// removejscssfile("somescript.js", "js") //remove all occurences of "somescript.js" on page
-// removejscssfile("somestyle.css", "css") //remove all occurences "somestyle.css" on page
