@@ -221,12 +221,12 @@ i {
 
 .final-score:focus { outline: none; }
 
-@media (min-width: 850px) and (max-width: 1000px) {
+@media (max-width: 1000px) {
     .wrapper {
         position: absolute;
         top: 188%;
         left: 47.5%;
-        width: 70%;
+        width: 900px;
         margin: 0 3%;
     }
     .active .player-name::after {
@@ -234,28 +234,28 @@ i {
         
     }
 }
-/* 
+
 @media (min-width: 750px) and (max-width: 840px) {
     .wrapper {
-        position: relative;
-        top: 30%;
-        width: 80%;
+        position: absolute;
+        top: 185%;
+        width: 800px;
     }
 }
 
-@media (max-width: 749px) {
+@media (min-width: 500px) and (max-width: 749px) {
     .wrapper {
-        position: relative;
-        top: 30%;
+        position: absolute;
+        top: 190%;
     }
 }
 
-@media (max-width: 749px) {
+/* @media (max-width: 749px) {
     .wrapper {
-        position: relative;
+        position: absolute;
         top: 25%;
     }
-} */
+}  */
 
 /* @media (max-width: 750px) {
     .wrapper {
