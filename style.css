@@ -67,8 +67,8 @@ li {
 
 .wrapper {
     width: 1000px;
-    position: absolute;
-    top: 56%;
+    position: relative;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
@@ -221,3 +221,5 @@ i {
 }
 
 .final-score:focus { outline: none; }
+
+@media
