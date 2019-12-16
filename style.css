@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .clearfix::after {
@@ -33,6 +34,10 @@ li {
     padding: 7px;
 }
 
+.rules {
+    margin: 3% auto 0;
+}
+
 .secondary-btns {
     visibility: flex;
     /* position: absolute; */
@@ -58,17 +63,11 @@ li {
     background: rgba(86, 191, 191, 0.3);
     outline: 0px;
 }
-/* 
-.secondary-btns:hover { font-weight: 600; }
-.secondary-btns:hover i { margin-right: 20px; }
-
-.secondary-btns:focus {
-    outline: none; */
 
 .wrapper {
     width: 1000px;
     position: relative;
-    top: 33%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
@@ -222,4 +221,45 @@ i {
 
 .final-score:focus { outline: none; }
 
-@media
+@media (min-width: 850px) and (max-width: 1000px) {
+    .wrapper {
+        position: relative;
+        top: 28%;
+        left: 47.5%;
+        width: 90%;
+        margin: 0 3%;
+    }
+    .active .player-name::after {
+        right: -5px;
+        
+    }
+}
+
+@media (min-width: 750px) and (max-width: 840px) {
+    .wrapper {
+        position: relative;
+        top: 26%;
+    }
+}
+
+@media (max-width: 749px) {
+    .wrapper {
+        position: relative;
+        top: 20%;
+    }
+}
+
+@media (max-width: 749px) {
+    .wrapper {
+        position: relative;
+        top: 25%;
+    }
+}
+
+/* @media (max-width: 750px) {
+    .wrapper {
+        position: relative;
+        top: 4%;
+        margin: 0 1%;
+    }
+} */
