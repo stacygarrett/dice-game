@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .clearfix::after {
@@ -221,7 +221,7 @@ i {
 
 .final-score:focus { outline: none; }
 
-@media (min-width: 850px) and (max-width: 1000px) {
+/* @media (min-width: 850px) and (max-width: 1000px) {
     .wrapper {
         position: relative;
         top: 28%;
@@ -230,22 +230,23 @@ i {
         margin: 0 3%;
     }
     .active .player-name::after {
-        right: -5px;
+        right: -25px;
         
     }
-}
-
+} */
+/* 
 @media (min-width: 750px) and (max-width: 840px) {
     .wrapper {
         position: relative;
-        top: 26%;
+        top: 30%;
+        width: 80%;
     }
 }
 
 @media (max-width: 749px) {
     .wrapper {
         position: relative;
-        top: 20%;
+        top: 30%;
     }
 }
 
@@ -254,7 +255,7 @@ i {
         position: relative;
         top: 25%;
     }
-}
+} */
 
 /* @media (max-width: 750px) {
     .wrapper {
